@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: blanchedalmond;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+footer{
+    background-color: blanchedalmond;
+   
+}
+#logo{
+    width: 100vw;
+}
+
+.aheader{
+    color:blanchedalmond;
+    font-size: 23px;
+    text-decoration: none;
+    background-color:dimgray;
+    padding:8px; 
+    margin:5px ;
+    border-radius: 10px;
+    display: inline-block;
+}
+.aheader:hover{
+    outline: 2px solid black;
+}
+.aheader:visited{
+    color:rgb(242, 196, 128);
+}
+.aheader:active{
+    background-color: rgb(243, 240, 235);
+    color:rgb(8, 8, 8);
+}
+
+footer a{
+    text-decoration: none;
+    padding: 10px;
+}
+footer nav{
+    /*display: inline;*/
+   
+    width: 50%;
+    margin: 0 auto;
+}
+
+#formreserva{
+    
+    width: 400px;
+    background-color: #ddd;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+input{
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.producto{
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #727272;
+    margin: 15px;
+}
+.producto img{
+    width: 100%;
+}
+.textocard{
+    padding: 10px;
+}
+
+.producto a{
+    color:blanchedalmond;
+    font-size: 23px;
+    text-decoration: none;
+    background-color:dimgray;
+    padding: 5px; 
+    margin:px ;
+    border-radius: 10px;
+    display: inline-block;
+
+}
